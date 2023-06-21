@@ -1,0 +1,59 @@
+.create{
+    width: 100%;
+    height: 100vh;
+    background-color: #282c34;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    >h1{
+        color: white;
+    }
+
+    >form{
+        width: 50%;
+        height: 60%;
+        background-color: white;
+
+        border: 1px solid white;
+        border-radius: 0.8rem;
+
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >input{
+            width: 90%;
+            padding: 1rem;
+            border: none;
+            border-bottom: 2px solid grey;
+            margin-top: 1rem;
+        }
+       
+        >button{
+            align-items: center;
+            width: 30%;
+            color: white;
+            padding: 0.7rem ;
+            background-color: green;
+            font-weight: 800;
+            border: 2px solid green;
+            border-radius: 0.8rem;
+            text-decoration: none;
+            
+            cursor: pointer;
+            transition: 0.5s all;
+    
+            &:hover{
+            background-color: white;
+            border-color: green;
+            color: #282c34;
+            transform: scale(1.05);
+        }
+      } 
+    }
+}
