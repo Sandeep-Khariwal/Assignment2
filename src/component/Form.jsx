@@ -26,7 +26,7 @@ const Form = () => {
     e.preventDefault()
     dispatch( AddUser(user) )
     
-    navigate("/")
+    navigate("/Assignment2")
     }
 
 

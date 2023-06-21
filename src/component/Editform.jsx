@@ -29,7 +29,7 @@ const Editform = () => {
 
     const clickHandler = () =>{
     dispatch(EditUser({id:id , user:user}))
-       navigate("/")
+       navigate("/Assignment2")
     }
   return(
 <div className='create'>
