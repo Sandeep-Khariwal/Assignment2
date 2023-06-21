@@ -1,5 +1,5 @@
 .card{
-    width: 15rem;
+    width: 18rem;
     height: 20rem;
     border: 2px solid grey;
     border-radius: 0.5rem;
@@ -45,5 +45,11 @@
             border-color: grey;
           }
         }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card{
+        width: 90%;
     }
 }
